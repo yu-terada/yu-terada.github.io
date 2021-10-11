@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<body bgcolor="#DDDDDD">
+
+<title>Hopfield模型</title>
+
+</head>
+<body>
+
+<div id="container">
+
+<div id="page">
+
+<div id="header">
+
+<h1 class="siteTitle">Hopfield模型
+(under construction)</h1>
+
+<br>
+<br>
+<IMG src="hopfield_network_anime_N_7.gif" width="30%" height="30%">&nbsp;
+<br>
+Hopfield模型は事前にHebb学習則
+<br>
+<IMG src="hebb.eps" width="100%" height="100%">&nbsp;
+<br>
+を用いて結合行列を決めておく．
+
+その後，系の素子がダイナミクス
+<br>
+<IMG src="dynamics.eps" width="100%" height="100%">&nbsp;
+<br>
+に従い時間発展する．
+<br>
+その結果，Hebb学習則によって系の状態が覚えさせていたパターンへと収束する．
+<ul class="guide">
+
+<div class="opening">
+
+<hr class="none">
+
+</div>
+
+<div id="content">
+
+<div id="main">
+
+<div class="section normal update">
+
+<div class="section normal">
+
+<br>
+
+</div>
+
+<hr class="clear">
+
+<div id="footer">
+ <A Href="http://wwwfs.acs.i.kyoto-u.ac.jp/~y-terada">[back]</A><br>
+Last updated: Sep. 2014 <br>
+<address>
+Room 368, Faculty of Letters East Building, Kyoto University, Sakyo-ku, Kyoto-shi, Kyoto, Japan
+</address>
+
+</div>
+</div>
+</div>
+</body>
+</html>
