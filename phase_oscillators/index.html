@@ -1,85 +1,44 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="ja">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
-
-    <meta name="keywords" content="kuramoto model,phase oscillators">
-    <meta name="description" content="kuramoto model">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <body bgcolor="#DDDDDD">
-
-      <title>Phase Oscillators</title>
-
-  </head>
-  <body>
-    <div id="container">
-
-      <div id="page">
-
-	<div id="header">
-
-	  <h1 class="siteTitle">Phase Oscillators (under construction)</h1>
-
-	  We can observe many rhythmic systems in nature.
-	  Such systems are described by dynamical systems mathematically, although most of them have often highly many degrees of freedom.
-	  The phase reduction technique [1] reduces a limit-cycle system even with external forces to a phase oscillator system with only one phase variable, which helps our mathematical and numerical analysis. 
-	  <br>
-	  A coupled limit-cycle system is reduced to a coupled phase-oscillator system by the phase reduction, and as a representative model the Kuramoto model has been extensively studied.
-	  <br> <br>
-	  weak coupling &nbsp;&nbsp;&nbsp;&nbsp;&larr; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &rarr;&nbsp;&nbsp;&nbsp; strong coupling
-	  <br>
-	  <IMG src="test_K_0.0.gif" width="240" height="200"><IMG src="test_K_0.5.gif" width="240" height="200"><IMG src="test_K_1.0.gif" width="240" height="200"><IMG src="test_K_5.0.gif" width="240" height="200">
-	  <br>
-	  In the Kuramoto model, the phase oscillators evolve according to the ordinary differential equations:
-	  <br>
-	  <IMG src="latex-image-1.png" width="30%" height="30%">
-	  <br>
-	  The oscillators have the natural frequencies, which are in some cases assumed to follow the Lorentz distribution:
-	  <br>
-	  <IMG src="lorentz.png" width="20%" height="20%">
-	  <br>
-	  The above figures show that the system undergoes the synchronization transition when the coupling strength K is increased.
-	  That is, with small K the oscillators move incoherently while with strong coupling they cooperate and tend to have similar phases.
-
-	  <ul class="guide">
-
-	    <div class="opening">
-
-	      <hr class="none">
-
-	    </div>
-
-	    <div id="content">
-
-	      <div id="main">
-
-
-
-		<div id="nav">
-
-		  <div class="section subMenu">
-		    [1] Yoshiki Kuramoto, "Chemical Oscillations, Waves, and Turbulence" (Dover, New York, 2003).
-	  </ul>
-
-	  </div>
-
-	  <div class="section strong">
-	    <hr class="clear">
-	  </div>
-
-	  <div id="footer">
-	    <A Href="http://wwwfs.acs.i.kyoto-u.ac.jp/~y-terada">[back]</A><br>
-	    Last updated: Nov. 2020 <br>
-	    <address>
-	      Room N209, Brain Science Central Bldg., RIKEN, Hirosawa 2-1, Wako-shi, Saitama, Japan
-	    </address>
-	  </div>
-	  </div>
-	  </div>
-
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phase Oscillators | Yu Terada</title>
+  <meta name="description" content="Yu Terada — Project Lecturer at Ochanomizu University. Theoretical neuroscience, machine learning, statistical physics and quantum computing.">
+  <link rel="canonical" href="https://yu-terada.github.io/phase_oscillators/index.html">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2210%22%20fill%3D%22%232677b7%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2234%22%20fill%3D%22white%22%3EYT%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrapper">
+    <div class="identity"><a class="site-title" rel="author" href="../index.html">Yu Terada</a><a class="language-link" lang="ja" href="../japanese/research/index.html">日本語</a></div>
+    <nav class="site-nav desktop-nav" aria-label="Main navigation"><a href="../index.html">About Me</a>
+<a href="../research/index.html" aria-current="page">Research</a>
+<a href="../publications/index.html">Publications</a>
+<a href="../teaching/index.html">Teaching</a>
+<a href="../presentations/index.html">Presentations</a>
+<a href="../cv/index.html">CV</a>
+<a href="../software/index.html">Software</a>
+<a href="../contact/index.html">Contact</a></nav>
+    <details class="mobile-menu"><summary>Menu</summary><nav class="site-nav" aria-label="Mobile navigation"><a href="../index.html">About Me</a>
+<a href="../research/index.html" aria-current="page">Research</a>
+<a href="../publications/index.html">Publications</a>
+<a href="../teaching/index.html">Teaching</a>
+<a href="../presentations/index.html">Presentations</a>
+<a href="../cv/index.html">CV</a>
+<a href="../software/index.html">Software</a>
+<a href="../contact/index.html">Contact</a></nav></details>
+  </div>
+</header>
+<main id="main" tabindex="-1"><div class="wrapper"><article>
+  <h1>Phase Oscillators</h1>
+  <p>We can observe many rhythmic systems in nature. Such systems are described by dynamical systems mathematically, although they often have many degrees of freedom. The phase reduction technique [1] reduces a limit-cycle system, even with external forces, to a phase oscillator system with only one phase variable, which helps our mathematical and numerical analysis.</p><p>A coupled limit-cycle system is reduced to a coupled phase-oscillator system by phase reduction. As a representative model, the Kuramoto model has been extensively studied.</p><div class="oscillator-grid"><figure><img src="test_K_0.0.gif" width="240" height="200" alt="Phase oscillator dynamics at coupling strength K = 0.0"><figcaption>K = 0.0</figcaption></figure><figure><img src="test_K_0.5.gif" width="240" height="200" alt="Phase oscillator dynamics at coupling strength K = 0.5"><figcaption>K = 0.5</figcaption></figure><figure><img src="test_K_1.0.gif" width="240" height="200" alt="Phase oscillator dynamics at coupling strength K = 1.0"><figcaption>K = 1.0</figcaption></figure><figure><img src="test_K_5.0.gif" width="240" height="200" alt="Phase oscillator dynamics at coupling strength K = 5.0"><figcaption>K = 5.0</figcaption></figure></div><p>In the Kuramoto model, the phase oscillators evolve according to the ordinary differential equations:</p><img class="equation" src="latex-image-1.png" alt="d theta i / dt = omega i + (K / N) sum over j of sin(theta j − theta i)"><p>The oscillators have natural frequencies, which are in some cases assumed to follow the Lorentz distribution:</p><img class="equation" src="lorentz.png" alt="Lorentz distribution for the natural frequencies"><p>The above figures show that the system undergoes a synchronization transition when the coupling strength K is increased. With small K, the oscillators move incoherently; with strong coupling, they cooperate and tend to have similar phases.</p><h2>Reference</h2><p>[1] Yoshiki Kuramoto, <i>Chemical Oscillations, Waves, and Turbulence</i> (Dover, New York, 2003).</p><p class="source-note">Last updated: November 2020.</p>
+</article></div></main>
+<footer class="site-footer"><div class="wrapper">
+  <div class="footer-heading"><p>Yu Terada</p><p>Ochanomizu University</p></div>
+  <ul class="footer-links"><li><a href="https://scholar.google.com/citations?user=QlR9ddsAAAAJ&amp;hl=en">Google Scholar</a></li><li><a href="../terada_cv.pdf">Curriculum Vitae (PDF)</a></li><li><a href="../contact/index.html">Contact</a></li></ul>
+</div></footer>
+</body>
 </html>
